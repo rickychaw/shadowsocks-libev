@@ -2,7 +2,7 @@
 
 #### 部署Heroku空间
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy) 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/rickychaw/shadowsocks-libev) 
 
 点击上面紫色`Deploy to Heroku`，会跳转到heroku app创建页面，填上app的名字、修改密码、加密方式、路径，当然用默认的也没问题。然后点击下面deploy创建APP，完成后会生成一个域名，到此服务端也就部署完成了。记下域名，后面客户端会用到。
 

@@ -28,7 +28,7 @@ v2ray-plugin 插件下载页：https://github.com/shadowsocks/v2ray-plugin/relea
 addEventListener(
     "fetch",event => {
         let url=new URL(event.request.url);
-        url.hostname="shadowsocks-libev.herokuapp.com";
+        url.hostname="appmane.herokuapp.com";         //将 appname 替换为你Heroku中App的名称
         let request=new Request(url,event.request);
         event. respondWith(
             fetch(request)

@@ -6,9 +6,6 @@
 
 点击上面紫色`Deploy to Heroku`，会跳转到heroku app创建页面，填上app的名字、修改密码、加密方式、路径，当然用默认的也没问题。然后点击下面deploy创建APP，完成后会生成一个域名，到此服务端也就部署完成了。记下域名，后面客户端会用到。
 
-#### ~~部署Kintohub空间【已被封】~~
-
-~~点开 https://app.kintohub.com/ 新建一个APP，点击 Create Service ,然后创建 Web App；Improt URL填上本项目链接和默认分支master；Build Settings 项随便修改 Service Name；最后点击 Deploy 部署。部署成功会生成一个域名，记下域名，后面客户端会用到~~
 
 ### 客户端配置
 
